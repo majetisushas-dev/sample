@@ -1,0 +1,65 @@
+{
+  "overall_pass": true,
+  "checks": [
+    {
+      "check": "README.md",
+      "passed": true
+    },
+    {
+      "check": "models/trained/verifier.joblib",
+      "passed": true
+    },
+    {
+      "check": "models/trained/calibrator.joblib",
+      "passed": true
+    },
+    {
+      "check": "results/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "results/per_question_predictions.jsonl",
+      "passed": true
+    },
+    {
+      "check": "results/dashboard.html",
+      "passed": true
+    },
+    {
+      "check": "results/guide_results.pdf",
+      "passed": true
+    },
+    {
+      "check": "paper/manuscript.tex",
+      "passed": true
+    },
+    {
+      "check": "paper/manuscript.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation/zeroth_review.pptx",
+      "passed": true
+    },
+    {
+      "check": "citation_integrity",
+      "passed": true
+    },
+    {
+      "check": "one_correction_max",
+      "passed": true
+    },
+    {
+      "check": "matched_test_ids",
+      "passed": true
+    }
+  ],
+  "paper_pages": 6,
+  "presentation_slides": 15,
+  "honest_exceptions": [
+    "Windows not execution-tested",
+    "human evaluation pending",
+    "neural generator and INT8 pending",
+    "peak RAM pending"
+  ]
+}

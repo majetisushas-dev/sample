@@ -1,0 +1,5 @@
+threads: 3
+retrieval: hybrid_tfidf_lsi
+generator: extractive_rule_based
+max_correction_rounds: 1
+

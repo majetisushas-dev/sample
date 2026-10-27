@@ -1,0 +1,2 @@
+{"title":"Evidence-Calibrated Self-Correcting RAG for Hallucination-Resistant Question Answering","scope":"measured CPU pilot","stages":["audit","data","training","calibration","evaluation","reporting","paper","presentation","audit/package"],"seed":2026}
+

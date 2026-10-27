@@ -1,0 +1,10 @@
+seed: 2026
+train_questions: 360
+calibration_questions: 100
+validation_questions: 100
+test_questions: 150
+controlled_unavailable: 50
+top_k: 5
+max_correction_rounds: 1
+target_risk: 0.20
+

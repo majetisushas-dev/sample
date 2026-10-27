@@ -1,0 +1,4 @@
+methods: [B0_closed_book, B1_bm25, B2_hybrid, B3_corrected, B4_full]
+bootstrap_resamples: 1000
+ece_bins: 10
+

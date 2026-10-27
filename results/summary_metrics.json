@@ -1,0 +1,7 @@
+{
+  "ece_10_equal_width": 0.19533848860477013,
+  "brier_exact_match": 0.048924668774665905,
+  "aurc_trapezoid": 0.9933333333333333,
+  "withheld_coverage": 0.0,
+  "withheld_em": 0.0
+}

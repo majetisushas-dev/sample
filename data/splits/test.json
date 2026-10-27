@@ -1,0 +1,1435 @@
+[
+  {
+    "id": "56e1c720e3433e140042316b",
+    "question": "In what expression can one expect to find DTIME(n)",
+    "answers": [
+      "DTIME(n2)"
+    ],
+    "doc_id": "squad2-a0001-p027",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c720e3433e140042316c",
+    "question": "What theorems are responsible for determining questions of time and space requirements?",
+    "answers": [
+      "time and space hierarchy theorems"
+    ],
+    "doc_id": "squad2-a0001-p027",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c720e3433e140042316d",
+    "question": "Resources are constrained by hierarchy theorems to produce what?",
+    "answers": [
+      "a proper hierarchy",
+      "a proper hierarchy on the classes",
+      "a proper hierarchy on the classes defined"
+    ],
+    "doc_id": "squad2-a0001-p027",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c720e3433e140042316e",
+    "question": "What kind of statement is made in the effort of establishing the time and space requirements needed to enhance the ultimate number of problems solved?",
+    "answers": [
+      "quantitative",
+      "quantitative statements"
+    ],
+    "doc_id": "squad2-a0001-p027",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c7e2cd28a01900c67b74",
+    "question": "What is the foundation for separation results within complexity classes?",
+    "answers": [
+      "The time and space hierarchy theorems",
+      "time and space hierarchy theorems"
+    ],
+    "doc_id": "squad2-a0001-p028",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c7e2cd28a01900c67b76",
+    "question": "Within what variable is L constrained according to the space hierarchy theorem?",
+    "answers": [
+      "PSPACE"
+    ],
+    "doc_id": "squad2-a0001-p028",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c9bfe3433e1400423192",
+    "question": "What concept is frequently used to define complexity classes?",
+    "answers": [
+      "a reduction",
+      "reduction"
+    ],
+    "doc_id": "squad2-a0001-p029",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c9bfe3433e1400423193",
+    "question": "Reduction essentially takes one problem and converts into what?",
+    "answers": [
+      "another problem"
+    ],
+    "doc_id": "squad2-a0001-p029",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c9bfe3433e1400423194",
+    "question": "According to reduction, if X and Y can be solved by the same algorithm then X performs what function in relationship to Y?",
+    "answers": [
+      "X reduces to Y",
+      "reduces"
+    ],
+    "doc_id": "squad2-a0001-p029",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c9bfe3433e1400423195",
+    "question": "What are two examples of different types of reduction?",
+    "answers": [
+      "Cook reductions, Karp reductions",
+      "Karp reductions and Levin reductions"
+    ],
+    "doc_id": "squad2-a0001-p029",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c9bfe3433e1400423196",
+    "question": "Polynomial time reductions are an example of what?",
+    "answers": [
+      "the bound on the complexity of reductions",
+      "types of reductions"
+    ],
+    "doc_id": "squad2-a0001-p029",
+    "article_id": 1
+  },
+  {
+    "id": "56e1cbe2cd28a01900c67bac",
+    "question": "What is the most frequently employed type of reduction?",
+    "answers": [
+      "polynomial-time",
+      "polynomial-time reduction"
+    ],
+    "doc_id": "squad2-a0001-p030",
+    "article_id": 1
+  },
+  {
+    "id": "56e1cbe2cd28a01900c67bad",
+    "question": "What equates to a squared integer according to polynomial time reduction?",
+    "answers": [
+      "multiplying two integers"
+    ],
+    "doc_id": "squad2-a0001-p030",
+    "article_id": 1
+  },
+  {
+    "id": "56e1cbe2cd28a01900c67bae",
+    "question": "What measurement of time is used in polynomial time reduction?",
+    "answers": [
+      "polynomial",
+      "polynomial time"
+    ],
+    "doc_id": "squad2-a0001-p030",
+    "article_id": 1
+  },
+  {
+    "id": "56e1cbe2cd28a01900c67baf",
+    "question": "What would need to remain constant in a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers?  ",
+    "answers": [
+      "input"
+    ],
+    "doc_id": "squad2-a0001-p030",
+    "article_id": 1
+  },
+  {
+    "id": "56e1cbe2cd28a01900c67bb0",
+    "question": "According to polynomial time reduction squaring can ultimately be logically reduced to what?",
+    "answers": [
+      "multiplication"
+    ],
+    "doc_id": "squad2-a0001-p030",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ce08e3433e14004231a4",
+    "question": "The complexity of problems often depends on what?",
+    "answers": [
+      "the type of reduction being used"
+    ],
+    "doc_id": "squad2-a0001-p031",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ce08e3433e14004231a5",
+    "question": "What would create a conflict between a problem X and problem C within the context of reduction? ",
+    "answers": [
+      "if every problem in C can be reduced to X",
+      "problem in C is harder than X"
+    ],
+    "doc_id": "squad2-a0001-p031",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ce08e3433e14004231a6",
+    "question": "An algorithm for X which reduces to C would us to do what?",
+    "answers": [
+      "solve any problem in C"
+    ],
+    "doc_id": "squad2-a0001-p031",
+    "article_id": 1
+  },
+  {
+    "id": "56e1d9fee3433e14004231cb",
+    "question": "The hardest problems in NP can be analogously written as what class of problems?",
+    "answers": [
+      "NP-complete"
+    ],
+    "doc_id": "squad2-a0001-p032",
+    "article_id": 1
+  },
+  {
+    "id": "56e1d9fee3433e14004231cc",
+    "question": "NP complete problems contain the lowest likelihood of being located in what problem class?",
+    "answers": [
+      "NP",
+      "P"
+    ],
+    "doc_id": "squad2-a0001-p032",
+    "article_id": 1
+  },
+  {
+    "id": "56e1d9fee3433e14004231cd",
+    "question": "If P = NP is unsolved, and reduction is applied to a known NP-complete problem vis a vis \u03a02 to  \u03a01, what conclusion can be drawn for \u03a01?",
+    "answers": [
+      "no known polynomial-time solution",
+      "there is no known polynomial-time solution"
+    ],
+    "doc_id": "squad2-a0001-p032",
+    "article_id": 1
+  },
+  {
+    "id": "56e1d9fee3433e14004231ce",
+    "question": "If polynomial time can be utilized within an NP-complete problem, what does the imply P is equal to?",
+    "answers": [
+      "NP"
+    ],
+    "doc_id": "squad2-a0001-p032",
+    "article_id": 1
+  },
+  {
+    "id": "56e1dc62cd28a01900c67bca",
+    "question": "What complexity class is characterized by a computational tasks and efficient algorithms?",
+    "answers": [
+      "P"
+    ],
+    "doc_id": "squad2-a0001-p033",
+    "article_id": 1
+  },
+  {
+    "id": "56e1dc62cd28a01900c67bcb",
+    "question": "What hypothesis is associated with the complexity class of P viewed as a mathematical abstraction with efficient algorithmic functionality?",
+    "answers": [
+      "Cobham\u2013Edmonds thesis"
+    ],
+    "doc_id": "squad2-a0001-p033",
+    "article_id": 1
+  },
+  {
+    "id": "56e1dc62cd28a01900c67bcc",
+    "question": "What complexity class is commonly characterized by unknown algorithms to enhance solvability?",
+    "answers": [
+      "NP"
+    ],
+    "doc_id": "squad2-a0001-p033",
+    "article_id": 1
+  },
+  {
+    "id": "56e1dc62cd28a01900c67bcd",
+    "question": "What is an example of a problem that rests within the NP complexity class?",
+    "answers": [
+      "Boolean satisfiability problem"
+    ],
+    "doc_id": "squad2-a0001-p033",
+    "article_id": 1
+  },
+  {
+    "id": "56e1dc62cd28a01900c67bce",
+    "question": "In what theoretical machine is it confirmed that a problem in P belies membership in the NP class?",
+    "answers": [
+      "Turing machines",
+      "deterministic Turing machines"
+    ],
+    "doc_id": "squad2-a0001-p033",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ddfce3433e14004231d5",
+    "question": "If P is ultimately proven to be equal tot NP, what effect would this have on the efficiency of problems?",
+    "answers": [
+      "many important problems can be shown to have more efficient solutions",
+      "more efficient solutions",
+      "shown to have more efficient solutions"
+    ],
+    "doc_id": "squad2-a0001-p034",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ddfce3433e14004231d6",
+    "question": "What is a particular problem in biology that would benefit from determining that P = NP?",
+    "answers": [
+      "protein structure prediction"
+    ],
+    "doc_id": "squad2-a0001-p034",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ddfce3433e14004231d8",
+    "question": "What is the prize offered for finding a solution to P=NP?",
+    "answers": [
+      "$1,000,000",
+      "US$1,000,000"
+    ],
+    "doc_id": "squad2-a0001-p034",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ded7cd28a01900c67bd4",
+    "question": "Who demonstrated that P= NP implies problems not present in P or NP-complete?",
+    "answers": [
+      "Ladner"
+    ],
+    "doc_id": "squad2-a0001-p035",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ded7cd28a01900c67bd5",
+    "question": "What is the name for a problem that meets Ladner's assertion?",
+    "answers": [
+      "NP-intermediate",
+      "NP-intermediate problems"
+    ],
+    "doc_id": "squad2-a0001-p035",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ded7cd28a01900c67bd6",
+    "question": "What is an example of an NP-intermediate problem not known to exist in P or NP-complete? ",
+    "answers": [
+      "graph isomorphism problem",
+      "graph isomorphism problem, the discrete logarithm problem and the integer factorization problem",
+      "the discrete logarithm problem"
+    ],
+    "doc_id": "squad2-a0001-p035",
+    "article_id": 1
+  },
+  {
+    "id": "56e1e9dfe3433e14004231fc",
+    "question": "What is the problem attributed to defining if two finite graphs are isomorphic?",
+    "answers": [
+      "The graph isomorphism problem",
+      "graph isomorphism"
+    ],
+    "doc_id": "squad2-a0001-p036",
+    "article_id": 1
+  },
+  {
+    "id": "56e1e9dfe3433e14004231fd",
+    "question": "What class is most commonly not ascribed to the graph isomorphism problem in spite of definitive determination?",
+    "answers": [
+      "NP-complete"
+    ],
+    "doc_id": "squad2-a0001-p036",
+    "article_id": 1
+  },
+  {
+    "id": "56e1e9dfe3433e14004231fe",
+    "question": "What finite hierarchy implies that the graph isomorphism problem is NP-complete? ",
+    "answers": [
+      "polynomial time",
+      "polynomial time hierarchy"
+    ],
+    "doc_id": "squad2-a0001-p036",
+    "article_id": 1
+  },
+  {
+    "id": "56e1e9dfe3433e14004231ff",
+    "question": "To what level would the polynomial time hierarchy collapse if graph isomorphism is NP-complete?",
+    "answers": [
+      "second",
+      "second level"
+    ],
+    "doc_id": "squad2-a0001-p036",
+    "article_id": 1
+  },
+  {
+    "id": "56e1e9dfe3433e1400423200",
+    "question": "Who are commonly associated with the algorithm typically considered the most effective with respect to finite polynomial hierarchy and graph isomorphism?",
+    "answers": [
+      "Babai and Eugene Luks",
+      "Laszlo Babai and Eugene Luks"
+    ],
+    "doc_id": "squad2-a0001-p036",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ec83cd28a01900c67c0a",
+    "question": "What computational problem is commonly associated with prime factorization?",
+    "answers": [
+      "The integer factorization problem",
+      "integer factorization",
+      "integer factorization problem"
+    ],
+    "doc_id": "squad2-a0001-p037",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ec83cd28a01900c67c0b",
+    "question": "The integer factorization problem essentially seeks to determine if the value of of an input is less than what variable? ",
+    "answers": [
+      "k"
+    ],
+    "doc_id": "squad2-a0001-p037",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ec83cd28a01900c67c0c",
+    "question": "That there currently exists no known integer factorization problem underpins what commonly used system?",
+    "answers": [
+      "RSA algorithm",
+      "modern cryptographic systems"
+    ],
+    "doc_id": "squad2-a0001-p037",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ec83cd28a01900c67c0e",
+    "question": "What is the most well-known algorithm associated with the integer factorization problem?",
+    "answers": [
+      "RSA",
+      "general number field sieve",
+      "the general number field sieve"
+    ],
+    "doc_id": "squad2-a0001-p037",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ee4de3433e1400423210",
+    "question": "What is the unproven assumption generally ascribed to the value of complexity classes?",
+    "answers": [
+      "Many known complexity classes are suspected to be unequal",
+      "suspected to be unequal",
+      "unequal"
+    ],
+    "doc_id": "squad2-a0001-p038",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ee4de3433e1400423211",
+    "question": "What is an expression that can be used to illustrate the suspected inequality of complexity classes?",
+    "answers": [
+      "P \u2286 NP \u2286 PP \u2286 PSPACE"
+    ],
+    "doc_id": "squad2-a0001-p038",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ee4de3433e1400423212",
+    "question": "Where can the complexity classes RP, BPP, PP, BQP, MA, and PH be located?",
+    "answers": [
+      "between P and PSPACE"
+    ],
+    "doc_id": "squad2-a0001-p038",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ee4de3433e1400423214",
+    "question": "What evidence between and among complexity classes would signify a theoretical watershed for complexity theory?",
+    "answers": [
+      "Proving that any of these classes are unequal"
+    ],
+    "doc_id": "squad2-a0001-p038",
+    "article_id": 1
+  },
+  {
+    "id": "56e1efa0e3433e140042321a",
+    "question": "In what complexity class do complement problems of NP problems exist?",
+    "answers": [
+      "co-NP"
+    ],
+    "doc_id": "squad2-a0001-p039",
+    "article_id": 1
+  },
+  {
+    "id": "56e1efa0e3433e140042321b",
+    "question": "How do the yes/no answers of a complement problem of NP appear?",
+    "answers": [
+      "reversed"
+    ],
+    "doc_id": "squad2-a0001-p039",
+    "article_id": 1
+  },
+  {
+    "id": "56e1efa0e3433e140042321c",
+    "question": "What is commonly believed to be the value relationship between P and co-NP",
+    "answers": [
+      "not equal"
+    ],
+    "doc_id": "squad2-a0001-p039",
+    "article_id": 1
+  },
+  {
+    "id": "56e1efa0e3433e140042321d",
+    "question": "What implication can be derived for P and NP if P and co-NP are established to be unequal?",
+    "answers": [
+      "P is not equal to NP",
+      "not equal"
+    ],
+    "doc_id": "squad2-a0001-p039",
+    "article_id": 1
+  },
+  {
+    "id": "56e1f10ee3433e1400423223",
+    "question": "Though unkown, what are the most commonly ascribed attributes of L in relation to P",
+    "answers": [
+      "contained in P or equal to P.",
+      "strictly contained in P or equal to P"
+    ],
+    "doc_id": "squad2-a0001-p040",
+    "article_id": 1
+  },
+  {
+    "id": "56e1f10ee3433e1400423224",
+    "question": "What lies between L and P that prevents a definitive determination of the relationship between L and P?",
+    "answers": [
+      "complexity classes",
+      "many complexity classes"
+    ],
+    "doc_id": "squad2-a0001-p040",
+    "article_id": 1
+  },
+  {
+    "id": "56e1f10ee3433e1400423225",
+    "question": "What are two complexity classes between L and P?",
+    "answers": [
+      "NL and NC"
+    ],
+    "doc_id": "squad2-a0001-p040",
+    "article_id": 1
+  },
+  {
+    "id": "56e1f10ee3433e1400423226",
+    "question": "What is unknown about the complexity classes between L and P that further prevents determining the value relationship between L and P?",
+    "answers": [
+      "if they are distinct or equal classes"
+    ],
+    "doc_id": "squad2-a0001-p040",
+    "article_id": 1
+  },
+  {
+    "id": "56e1fc57e3433e140042322c",
+    "question": "Problems capable of theoretical solutions but consuming unreasonable time in practical application are known as what?",
+    "answers": [
+      "intractable",
+      "intractable problems"
+    ],
+    "doc_id": "squad2-a0001-p041",
+    "article_id": 1
+  },
+  {
+    "id": "56e1fc57e3433e140042322f",
+    "question": "Intractable problems lacking polynomial time solutions necessarily negate the practical efficacy of what type of algorithm?",
+    "answers": [
+      "exponential-time",
+      "exponential-time algorithms"
+    ],
+    "doc_id": "squad2-a0001-p041",
+    "article_id": 1
+  },
+  {
+    "id": "56e1fc57e3433e1400423230",
+    "question": "If NP is not equal to P, viewed through this lens, what type of problems can also be considered intractable?",
+    "answers": [
+      "NP-complete",
+      "NP-complete problems"
+    ],
+    "doc_id": "squad2-a0001-p041",
+    "article_id": 1
+  },
+  {
+    "id": "56e1febfe3433e1400423236",
+    "question": "What eponymous variation of arithmetic presents a decision problem not evidenced in P?",
+    "answers": [
+      "Presburger",
+      "Presburger arithmetic"
+    ],
+    "doc_id": "squad2-a0001-p042",
+    "article_id": 1
+  },
+  {
+    "id": "56e1febfe3433e1400423238",
+    "question": "What is an example of a problem to which effective algorithms have provided a solution in spite of the intractability associated with the breadth of sizes?",
+    "answers": [
+      "NP-complete knapsack",
+      "NP-complete knapsack problem",
+      "the NP-complete knapsack problem"
+    ],
+    "doc_id": "squad2-a0001-p042",
+    "article_id": 1
+  },
+  {
+    "id": "56e1febfe3433e1400423239",
+    "question": "How quickly can an algorithm solve an NP-complete knapsack problem?",
+    "answers": [
+      "in less than quadratic time",
+      "less than quadratic time"
+    ],
+    "doc_id": "squad2-a0001-p042",
+    "article_id": 1
+  },
+  {
+    "id": "56e1febfe3433e140042323a",
+    "question": "What is the example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms?",
+    "answers": [
+      "NP-complete Boolean satisfiability",
+      "NP-complete Boolean satisfiability problem",
+      "the NP-complete Boolean satisfiability problem"
+    ],
+    "doc_id": "squad2-a0001-p042",
+    "article_id": 1
+  },
+  {
+    "id": "56e200e4cd28a01900c67c15",
+    "question": "Who was the most influential researcher among those grappling with the deficit of work surrounding the complexity posed by algorithmic problems?",
+    "answers": [
+      "Alan Turing"
+    ],
+    "doc_id": "squad2-a0001-p043",
+    "article_id": 1
+  },
+  {
+    "id": "56e200e4cd28a01900c67c16",
+    "question": "What theoretical device is attributed to Alan Turing?",
+    "answers": [
+      "Turing machines"
+    ],
+    "doc_id": "squad2-a0001-p043",
+    "article_id": 1
+  },
+  {
+    "id": "56e200e4cd28a01900c67c18",
+    "question": "In the most basic sense what did a Turing machine emulate?",
+    "answers": [
+      "a computer"
+    ],
+    "doc_id": "squad2-a0001-p043",
+    "article_id": 1
+  },
+  {
+    "id": "56e202e9e3433e1400423240",
+    "question": "What paper is commonly considered the bellwether ushering in systematic studies computational complexity?",
+    "answers": [
+      "\"On the Computational Complexity of Algorithms\"",
+      "On the Computational Complexity of Algorithms"
+    ],
+    "doc_id": "squad2-a0001-p044",
+    "article_id": 1
+  },
+  {
+    "id": "56e202e9e3433e1400423241",
+    "question": "What individuals were responsible for authoring \"On the Computational Complexity of Algorithms\"?",
+    "answers": [
+      "Juris Hartmanis and Richard Stearns"
+    ],
+    "doc_id": "squad2-a0001-p044",
+    "article_id": 1
+  },
+  {
+    "id": "56e202e9e3433e1400423242",
+    "question": "In what year was Hatmanis and Stearn's seminal work in computational complexity received? ",
+    "answers": [
+      "1965"
+    ],
+    "doc_id": "squad2-a0001-p044",
+    "article_id": 1
+  },
+  {
+    "id": "56e202e9e3433e1400423243",
+    "question": "What complex measurements were defined by \"On the Computational Complexity of Algorithms\"?",
+    "answers": [
+      "definitions of time and space complexity",
+      "time and space",
+      "time and space complexity"
+    ],
+    "doc_id": "squad2-a0001-p044",
+    "article_id": 1
+  },
+  {
+    "id": "56e202e9e3433e1400423244",
+    "question": "In what year did Edmond's characterize a \"good\" algorithm?",
+    "answers": [
+      "1965"
+    ],
+    "doc_id": "squad2-a0001-p044",
+    "article_id": 1
+  },
+  {
+    "id": "56e2042ecd28a01900c67c1e",
+    "question": "Who provided a definition of linear bounded automata in 1960?",
+    "answers": [
+      "John Myhill"
+    ],
+    "doc_id": "squad2-a0001-p045",
+    "article_id": 1
+  },
+  {
+    "id": "56e2042ecd28a01900c67c1f",
+    "question": "In what year did Raymond Sullivan publish a study of rudimentary sets?",
+    "answers": [
+      "1961"
+    ],
+    "doc_id": "squad2-a0001-p045",
+    "article_id": 1
+  },
+  {
+    "id": "56e2042ecd28a01900c67c20",
+    "question": "In 1962, who was responsible for the authorship of a paper published on real time-computations?",
+    "answers": [
+      "Hisao Yamada"
+    ],
+    "doc_id": "squad2-a0001-p045",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a27cd28a01900c67c24",
+    "question": "What is the concrete choice typically assumed by most complexity-theoretic theorems?",
+    "answers": [
+      "input encoding"
+    ],
+    "doc_id": "squad2-a0001-p046",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a27cd28a01900c67c25",
+    "question": "In the effort of maintaining a level of abstraction, what choice is typically left independent?",
+    "answers": [
+      "encoding"
+    ],
+    "doc_id": "squad2-a0001-p046",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a3ae3433e140042324a",
+    "question": "Who is responsible for axiomatic complexity theory?",
+    "answers": [
+      "Manuel Blum"
+    ],
+    "doc_id": "squad2-a0001-p047",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a3ae3433e140042324b",
+    "question": "What theorem was implicated by Manuel Blum's axioms?",
+    "answers": [
+      "speed-up theorem"
+    ],
+    "doc_id": "squad2-a0001-p047",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a3ae3433e140042324d",
+    "question": "What is the paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems?",
+    "answers": [
+      "\"Reducibility Among Combinatorial Problems\"",
+      "Reducibility Among Combinatorial Problems"
+    ],
+    "doc_id": "squad2-a0001-p047",
+    "article_id": 1
+  },
+  {
+    "id": "56e20a3ae3433e140042324e",
+    "question": "How many combinatory and graph theoretical problems, formerly believed to be plagued by intractability, did Karp's paper address?",
+    "answers": [
+      "21"
+    ],
+    "doc_id": "squad2-a0001-p047",
+    "article_id": 1
+  },
+  {
+    "id": "5705e26d75f01819005e76d4",
+    "question": "What is Southern California often abbreviated as?",
+    "answers": [
+      "SoCal"
+    ],
+    "doc_id": "squad2-a0002-p000",
+    "article_id": 2
+  },
+  {
+    "id": "5705e26d75f01819005e76d5",
+    "question": "Despite being traditionall described as \"eight counties\", how many counties does this region actually have?",
+    "answers": [
+      "10",
+      "10 counties"
+    ],
+    "doc_id": "squad2-a0002-p000",
+    "article_id": 2
+  },
+  {
+    "id": "5705e26d75f01819005e76d6",
+    "question": "What is a major importance of Southern California in relation to California and the United States?",
+    "answers": [
+      "economic center",
+      "major economic center"
+    ],
+    "doc_id": "squad2-a0002-p000",
+    "article_id": 2
+  },
+  {
+    "id": "5705e26d75f01819005e76d7",
+    "question": "What are the ties that best described what the \"eight counties\" are based on?",
+    "answers": [
+      "demographics and economic",
+      "demographics and economic ties",
+      "economic"
+    ],
+    "doc_id": "squad2-a0002-p000",
+    "article_id": 2
+  },
+  {
+    "id": "5705e26d75f01819005e76d8",
+    "question": "The reasons for the las two counties to be added are based on what?",
+    "answers": [
+      "historical political divisions"
+    ],
+    "doc_id": "squad2-a0002-p000",
+    "article_id": 2
+  },
+  {
+    "id": "5705e33f52bb89140068964c",
+    "question": "What is the name of the region that is not defined by the eight or 10 county definitions?",
+    "answers": [
+      "Southern California Megaregion",
+      "the greater Southern California Megaregion"
+    ],
+    "doc_id": "squad2-a0002-p001",
+    "article_id": 2
+  },
+  {
+    "id": "5705e33f52bb89140068964d",
+    "question": "How many megaregions are there in the United States?",
+    "answers": [
+      "11"
+    ],
+    "doc_id": "squad2-a0002-p001",
+    "article_id": 2
+  },
+  {
+    "id": "5705e33f52bb89140068964e",
+    "question": "What is the name of the state that the megaregion expands to in the east?",
+    "answers": [
+      "Nevada"
+    ],
+    "doc_id": "squad2-a0002-p001",
+    "article_id": 2
+  },
+  {
+    "id": "5705e33f52bb89140068964f",
+    "question": "Which border does the megaregion extend over?",
+    "answers": [
+      "Mexican"
+    ],
+    "doc_id": "squad2-a0002-p001",
+    "article_id": 2
+  },
+  {
+    "id": "5705e33f52bb891400689650",
+    "question": "What is the name of the area past the border that the megaregion extends into?",
+    "answers": [
+      "Tijuana"
+    ],
+    "doc_id": "squad2-a0002-p001",
+    "article_id": 2
+  },
+  {
+    "id": "5705e3f252bb89140068966a",
+    "question": "Which coastline does Southern California touch?",
+    "answers": [
+      "Pacific"
+    ],
+    "doc_id": "squad2-a0002-p002",
+    "article_id": 2
+  },
+  {
+    "id": "5705e3f252bb89140068966b",
+    "question": "How many metropolitan areas does Southern California's population encompass?",
+    "answers": [
+      "seven"
+    ],
+    "doc_id": "squad2-a0002-p002",
+    "article_id": 2
+  },
+  {
+    "id": "5705e3f252bb89140068966c",
+    "question": "How many inhabitants does the Los Angeles area contain?",
+    "answers": [
+      "12 million",
+      "over 12 million inhabitants"
+    ],
+    "doc_id": "squad2-a0002-p002",
+    "article_id": 2
+  },
+  {
+    "id": "5705e3f252bb89140068966d",
+    "question": "Which of the three heavily populated areas has the least number of inhabitants?",
+    "answers": [
+      "San Diego",
+      "the San Diego area"
+    ],
+    "doc_id": "squad2-a0002-p002",
+    "article_id": 2
+  },
+  {
+    "id": "5705e3f252bb89140068966e",
+    "question": "How many people does the Greater Los Angeles Area have?",
+    "answers": [
+      "17.5 million",
+      "over 17.5 million"
+    ],
+    "doc_id": "squad2-a0002-p002",
+    "article_id": 2
+  },
+  {
+    "id": "5705e4fe75f01819005e7704",
+    "question": "What is the name of the water body that is found to the east?",
+    "answers": [
+      "Colorado River",
+      "the Colorado River"
+    ],
+    "doc_id": "squad2-a0002-p003",
+    "article_id": 2
+  },
+  {
+    "id": "5705e4fe75f01819005e7705",
+    "question": "What is the name of the desert on the border of Arizona?",
+    "answers": [
+      "Colorado Desert",
+      "the Colorado Desert"
+    ],
+    "doc_id": "squad2-a0002-p003",
+    "article_id": 2
+  },
+  {
+    "id": "5705e4fe75f01819005e7706",
+    "question": "What is the name of the desert near the border of Nevada?",
+    "answers": [
+      "Mojave Desert",
+      "the Mojave Desert"
+    ],
+    "doc_id": "squad2-a0002-p003",
+    "article_id": 2
+  },
+  {
+    "id": "5705e4fe75f01819005e7707",
+    "question": "What is the name of the border to the south?",
+    "answers": [
+      "Mexico\u2013United States border",
+      "the Mexico\u2013United States border"
+    ],
+    "doc_id": "squad2-a0002-p003",
+    "article_id": 2
+  },
+  {
+    "id": "5705e63175f01819005e7720",
+    "question": "The cities of Los Angeles and San Diego are a part of which state?",
+    "answers": [
+      "California"
+    ],
+    "doc_id": "squad2-a0002-p004",
+    "article_id": 2
+  },
+  {
+    "id": "5705e63175f01819005e7721",
+    "question": "What is the population of Los Angeles?",
+    "answers": [
+      "3,792,621"
+    ],
+    "doc_id": "squad2-a0002-p004",
+    "article_id": 2
+  },
+  {
+    "id": "5705e63175f01819005e7722",
+    "question": "Which city is the most populous in California?",
+    "answers": [
+      "Los Angeles"
+    ],
+    "doc_id": "squad2-a0002-p004",
+    "article_id": 2
+  },
+  {
+    "id": "5705e63175f01819005e7723",
+    "question": "What is the eighth most populous city in the nation?",
+    "answers": [
+      "San Diego"
+    ],
+    "doc_id": "squad2-a0002-p004",
+    "article_id": 2
+  },
+  {
+    "id": "5705e63175f01819005e7724",
+    "question": "In which cardinal direction from Los Angeles is San Diego?",
+    "answers": [
+      "south"
+    ],
+    "doc_id": "squad2-a0002-p004",
+    "article_id": 2
+  },
+  {
+    "id": "5705e99452bb891400689688",
+    "question": "Orange, San Diego, Riverside and San Bernardino make up four of the five counties. What is the name of the last county?",
+    "answers": [
+      "Los Angeles",
+      "Riverside"
+    ],
+    "doc_id": "squad2-a0002-p005",
+    "article_id": 2
+  },
+  {
+    "id": "5705e99452bb891400689689",
+    "question": "What country are all the counties in?",
+    "answers": [
+      "Los Angeles",
+      "United States",
+      "the United States"
+    ],
+    "doc_id": "squad2-a0002-p005",
+    "article_id": 2
+  },
+  {
+    "id": "5705e99452bb89140068968b",
+    "question": "What is the lowest ranking one of the counties could have in terms of most populous counties in the United States?",
+    "answers": [
+      "15",
+      "Riverside"
+    ],
+    "doc_id": "squad2-a0002-p005",
+    "article_id": 2
+  },
+  {
+    "id": "5705e99452bb89140068968c",
+    "question": "What is the smallest geographical region discussed?",
+    "answers": [
+      "Riverside",
+      "counties"
+    ],
+    "doc_id": "squad2-a0002-p005",
+    "article_id": 2
+  },
+  {
+    "id": "5705eb3375f01819005e7764",
+    "question": "What is the name given to the district that is associated with the motion picture industry?",
+    "answers": [
+      "Hollywood"
+    ],
+    "doc_id": "squad2-a0002-p006",
+    "article_id": 2
+  },
+  {
+    "id": "5705eb3375f01819005e7765",
+    "question": "Which city does the Hollywood district belong to?",
+    "answers": [
+      "Los Angeles"
+    ],
+    "doc_id": "squad2-a0002-p006",
+    "article_id": 2
+  },
+  {
+    "id": "5705eb3375f01819005e7767",
+    "question": "Other than the motion picture and television industry, what other major industry is centered in Los Angeles?",
+    "answers": [
+      "major record companies",
+      "music"
+    ],
+    "doc_id": "squad2-a0002-p006",
+    "article_id": 2
+  },
+  {
+    "id": "5705eb3375f01819005e7768",
+    "question": "Other than Universal and Warner Brothers, what other company runs a major record company?",
+    "answers": [
+      "Sony"
+    ],
+    "doc_id": "squad2-a0002-p006",
+    "article_id": 2
+  },
+  {
+    "id": "5705ec1675f01819005e776e",
+    "question": "Other than surf, what other culture is southern California home to?",
+    "answers": [
+      "skateboard"
+    ],
+    "doc_id": "squad2-a0002-p007",
+    "article_id": 2
+  },
+  {
+    "id": "5705ec1675f01819005e776f",
+    "question": "What is the name of the professional skateboarder that lives in southern California?",
+    "answers": [
+      "Tony Hawk"
+    ],
+    "doc_id": "squad2-a0002-p007",
+    "article_id": 2
+  },
+  {
+    "id": "5705ec1675f01819005e7770",
+    "question": "What famous snowbaorder lives in southern California?",
+    "answers": [
+      "Shaun White"
+    ],
+    "doc_id": "squad2-a0002-p007",
+    "article_id": 2
+  },
+  {
+    "id": "5705ec1675f01819005e7771",
+    "question": "Southern California is second to which island in terms of famous serf breaks?",
+    "answers": [
+      "Oahu"
+    ],
+    "doc_id": "squad2-a0002-p007",
+    "article_id": 2
+  },
+  {
+    "id": "5705eccb52bb8914006896b9",
+    "question": "Other than the desert city why do many locals and tourists frequent southern California?",
+    "answers": [
+      "beaches",
+      "for its popular beaches"
+    ],
+    "doc_id": "squad2-a0002-p008",
+    "article_id": 2
+  },
+  {
+    "id": "5705eccb52bb8914006896ba",
+    "question": "Which region of California is Palm Springs located in?",
+    "answers": [
+      "southern",
+      "the desert"
+    ],
+    "doc_id": "squad2-a0002-p008",
+    "article_id": 2
+  },
+  {
+    "id": "5705eccb52bb8914006896bb",
+    "question": "Other than for its resort feel, what is Palm Springs popular for?",
+    "answers": [
+      "nearby open spaces",
+      "open spaces"
+    ],
+    "doc_id": "squad2-a0002-p008",
+    "article_id": 2
+  },
+  {
+    "id": "5705edcd52bb8914006896cb",
+    "question": "How many miles south of San Jose is the north - south midway point located?",
+    "answers": [
+      "11"
+    ],
+    "doc_id": "squad2-a0002-p009",
+    "article_id": 2
+  },
+  {
+    "id": "5705edcd52bb8914006896cc",
+    "question": "The term \"southern\" California usually refers to how many of the southern-most counties of the state?",
+    "answers": [
+      "ten"
+    ],
+    "doc_id": "squad2-a0002-p009",
+    "article_id": 2
+  },
+  {
+    "id": "5705edcd52bb8914006896cd",
+    "question": "Other than Point Conception, what landmark is used in the other definition of southern California?",
+    "answers": [
+      "Tehachapi Mountains"
+    ],
+    "doc_id": "squad2-a0002-p009",
+    "article_id": 2
+  },
+  {
+    "id": "5705edcd52bb8914006896ce",
+    "question": "Point Conception is an example of a landmark among what boundary of southern California?",
+    "answers": [
+      "northern",
+      "the Tehachapi Mountains"
+    ],
+    "doc_id": "squad2-a0002-p009",
+    "article_id": 2
+  },
+  {
+    "id": "5705eee952bb8914006896de",
+    "question": "Which country used to rule California?",
+    "answers": [
+      "Mexico"
+    ],
+    "doc_id": "squad2-a0002-p010",
+    "article_id": 2
+  },
+  {
+    "id": "5705eee952bb8914006896df",
+    "question": "Los Angeles is in the lower part of what?",
+    "answers": [
+      "Alta California"
+    ],
+    "doc_id": "squad2-a0002-p010",
+    "article_id": 2
+  },
+  {
+    "id": "5705eee952bb8914006896e0",
+    "question": "Which Californio is located in the upper part?",
+    "answers": [
+      "Monterey"
+    ],
+    "doc_id": "squad2-a0002-p010",
+    "article_id": 2
+  },
+  {
+    "id": "5705eee952bb8914006896e1",
+    "question": "What was the name of the legislation passed in 1850?",
+    "answers": [
+      "Compromise of 1850",
+      "the Compromise of 1850",
+      "the Missouri Compromise"
+    ],
+    "doc_id": "squad2-a0002-p010",
+    "article_id": 2
+  },
+  {
+    "id": "5705eee952bb8914006896e2",
+    "question": "The legislation allowed California to be admitted to the Union as what kind of state?",
+    "answers": [
+      "a free state",
+      "free"
+    ],
+    "doc_id": "squad2-a0002-p010",
+    "article_id": 2
+  },
+  {
+    "id": "5705f09e75f01819005e77a4",
+    "question": "Other than land laws, what else were the Californios dissatisfied with?",
+    "answers": [
+      "inequitable taxes"
+    ],
+    "doc_id": "squad2-a0002-p011",
+    "article_id": 2
+  },
+  {
+    "id": "5705f09e75f01819005e77a5",
+    "question": "What was the name given to the regions in which the pro - slavery southerners lived?",
+    "answers": [
+      "Cow Counties"
+    ],
+    "doc_id": "squad2-a0002-p011",
+    "article_id": 2
+  },
+  {
+    "id": "5705f09e75f01819005e77a6",
+    "question": "How many times did southern California attempt to achieve a separate statehood?",
+    "answers": [
+      "three"
+    ],
+    "doc_id": "squad2-a0002-p011",
+    "article_id": 2
+  },
+  {
+    "id": "5705f09e75f01819005e77a7",
+    "question": "What was the percentage of people that voted in favor of the Pico Act of 1859?",
+    "answers": [
+      "75",
+      "75%"
+    ],
+    "doc_id": "squad2-a0002-p011",
+    "article_id": 2
+  },
+  {
+    "id": "5705f09e75f01819005e77a8",
+    "question": "Which Senator was a strong advocate for the Pico Act?",
+    "answers": [
+      "Milton Latham"
+    ],
+    "doc_id": "squad2-a0002-p011",
+    "article_id": 2
+  },
+  {
+    "id": "5705f13d52bb8914006896f0",
+    "question": "Which newspaper defined southern California?",
+    "answers": [
+      "Los Angeles Times",
+      "the Los Angeles Times"
+    ],
+    "doc_id": "squad2-a0002-p012",
+    "article_id": 2
+  },
+  {
+    "id": "5705f13d52bb8914006896f1",
+    "question": "In which year did the newspaper define southern California?",
+    "answers": [
+      "1900"
+    ],
+    "doc_id": "squad2-a0002-p012",
+    "article_id": 2
+  },
+  {
+    "id": "5705f13d52bb8914006896f2",
+    "question": "In which year did the newspaper change its previous definition?",
+    "answers": [
+      "1999"
+    ],
+    "doc_id": "squad2-a0002-p012",
+    "article_id": 2
+  },
+  {
+    "id": "5705f13d52bb8914006896f4",
+    "question": "How many counties initially made up the definition of southern California?",
+    "answers": [
+      "seven"
+    ],
+    "doc_id": "squad2-a0002-p012",
+    "article_id": 2
+  },
+  {
+    "id": "5705f36452bb891400689718",
+    "question": "Which organizations most commonly divide and promote the state?",
+    "answers": [
+      "AAA Auto Clubs",
+      "regional tourism groups"
+    ],
+    "doc_id": "squad2-a0002-p013",
+    "article_id": 2
+  },
+  {
+    "id": "5705f36452bb891400689719",
+    "question": "Other than the Automobile Club of Southern California, what other AAA Auto Club chose to simplify the divide?",
+    "answers": [
+      "California State Automobile Association",
+      "the California State Automobile Association"
+    ],
+    "doc_id": "squad2-a0002-p013",
+    "article_id": 2
+  },
+  {
+    "id": "5705f36452bb89140068971a",
+    "question": "The two AAA clubs divided the state into a northern and southern California as opposed to what point of view?",
+    "answers": [
+      "the three-region point of view",
+      "three-region"
+    ],
+    "doc_id": "squad2-a0002-p013",
+    "article_id": 2
+  },
+  {
+    "id": "5705f36452bb89140068971b",
+    "question": "Which mountain range influenced the split of the regions?",
+    "answers": [
+      "Tehachapis",
+      "the Tehachapis"
+    ],
+    "doc_id": "squad2-a0002-p013",
+    "article_id": 2
+  },
+  {
+    "id": "5705f36452bb89140068971c",
+    "question": "In the definition based off the mountain range, which region would the desert portions of north Los Angeles County be included in?",
+    "answers": [
+      "southern",
+      "southern California"
+    ],
+    "doc_id": "squad2-a0002-p013",
+    "article_id": 2
+  },
+  {
+    "id": "5705f7c875f01819005e77dc",
+    "question": "Where does southern California's megalopolis standard in terms of population nationwide?",
+    "answers": [
+      "third"
+    ],
+    "doc_id": "squad2-a0002-p014",
+    "article_id": 2
+  },
+  {
+    "id": "5705f7c875f01819005e77dd",
+    "question": "Although southern california consts of a heavily developed urban environment, how much of it has been left undeveloped?",
+    "answers": [
+      "vast areas"
+    ],
+    "doc_id": "squad2-a0002-p014",
+    "article_id": 2
+  },
+  {
+    "id": "5705f7c875f01819005e77df",
+    "question": "Outside of its use of automobiles, what else is southern California famous for using?",
+    "answers": [
+      "highways"
+    ],
+    "doc_id": "squad2-a0002-p014",
+    "article_id": 2
+  },
+  {
+    "id": "5705f7c875f01819005e77e0",
+    "question": "What kind of region can be found inside the urban area of southern California?",
+    "answers": [
+      "an international metropolitan region",
+      "international metropolitan"
+    ],
+    "doc_id": "squad2-a0002-p014",
+    "article_id": 2
+  },
+  {
+    "id": "5705fb7f52bb891400689750",
+    "question": "What is the main gap to continued urbanization?",
+    "answers": [
+      "Camp Pendleton"
+    ],
+    "doc_id": "squad2-a0002-p015",
+    "article_id": 2
+  },
+  {
+    "id": "5705fb7f52bb891400689751",
+    "question": "Other than the San Diego metropolitan area, what other area are the communities along Interstates 15 and 215 connected with?",
+    "answers": [
+      "Inland Empire",
+      "Temecula and Murrieta"
+    ],
+    "doc_id": "squad2-a0002-p015",
+    "article_id": 2
+  },
+  {
+    "id": "5705fb7f52bb891400689752",
+    "question": "Who considers Los Angeles County to be a separate metropolitan area?",
+    "answers": [
+      "United States Census Bureau",
+      "the United States Census Bureau"
+    ],
+    "doc_id": "squad2-a0002-p015",
+    "article_id": 2
+  },
+  {
+    "id": "5705fb7f52bb891400689753",
+    "question": "Other than L.A. which other county do many people commute to?",
+    "answers": [
+      "Orange",
+      "Orange Counties"
+    ],
+    "doc_id": "squad2-a0002-p015",
+    "article_id": 2
+  },
+  {
+    "id": "5705fb7f52bb891400689754",
+    "question": "Other than the 1980s, in which decade did most of San Bernardino and Riverside Counties develop?",
+    "answers": [
+      "1990s"
+    ],
+    "doc_id": "squad2-a0002-p015",
+    "article_id": 2
+  }
+]

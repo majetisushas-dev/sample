@@ -1,0 +1,52 @@
+[
+  {
+    "category": "appropriate_abstention",
+    "question_id": "56e1c720e3433e140042316b",
+    "question": "In what expression can one expect to find DTIME(n)",
+    "gold_answers": [
+      "DTIME(n2)"
+    ],
+    "gold_doc_id": "squad2-a0001-p027",
+    "method": "B4_full",
+    "answer": "",
+    "raw_candidate": "In particular, although DTIME(n) is contained in DTIME(n2), it would be interesting to know if the inclusion is strict",
+    "abstained": true,
+    "confidence": 0.12031064411632064,
+    "evidence": [
+      {
+        "chunk_id": "squad2-a0001-p027",
+        "title": "Computational_complexity_theory",
+        "text": "In particular, although DTIME(n) is contained in DTIME(n2), it would be interesting to know if the inclusion is strict.",
+        "quote_valid": true
+      }
+    ],
+    "events": [
+      {
+        "round": 0,
+        "query": "In what expression can one expect to find DTIME(n)",
+        "candidate": "In particular, although DTIME(n) is contained in DTIME(n2), it would be interesting to know if the inclusion is strict",
+        "chunk_id": "squad2-a0001-p027",
+        "support_probability": 0.15113123611768037,
+        "retrieval_ms": 1.2281930000028751
+      },
+      {
+        "round": 1,
+        "query": "In what expression can one expect to find DTIME(n) particular although is contained n2 it would be",
+        "candidate": "In particular, although DTIME(n) is contained in DTIME(n2), it would be interesting to know if the inclusion is strict",
+        "chunk_id": "squad2-a0001-p027",
+        "support_probability": 0.15113123611768037,
+        "retrieval_ms": 1.2047280000047067,
+        "reason": "support below 0.62; changed retrieval"
+      }
+    ],
+    "latency_ms": 4.1482930000142915,
+    "retrieval_calls": 2,
+    "generation_calls": 2,
+    "support_probability": 0.15113123611768037,
+    "em": 0.0,
+    "f1": 0.0,
+    "gold_retrieved": true,
+    "confidence_meaning": "estimated exact-match correctness for B4; evidence proxy otherwise",
+    "condition": NaN
+  }
+]

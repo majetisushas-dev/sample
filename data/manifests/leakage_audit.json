@@ -1,0 +1,38 @@
+[
+  {
+    "a": "train",
+    "b": "validation",
+    "question_overlap": 0,
+    "article_overlap": 1
+  },
+  {
+    "a": "calibration",
+    "b": "train",
+    "question_overlap": 0,
+    "article_overlap": 2
+  },
+  {
+    "a": "calibration",
+    "b": "validation",
+    "question_overlap": 0,
+    "article_overlap": 1
+  },
+  {
+    "a": "calibration",
+    "b": "test",
+    "question_overlap": 0,
+    "article_overlap": 1
+  },
+  {
+    "a": "test",
+    "b": "train",
+    "question_overlap": 0,
+    "article_overlap": 2
+  },
+  {
+    "a": "test",
+    "b": "validation",
+    "question_overlap": 0,
+    "article_overlap": 1
+  }
+]

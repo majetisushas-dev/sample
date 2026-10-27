@@ -1,0 +1,6 @@
+{
+  "file": "ecsc_rag_pilot.zip",
+  "sha256": "57775be8185c1edb7489f47cf1ca924398962c5ecfdadd06c8f06be15ee9a977",
+  "offline_capable": false,
+  "reason": "initial SQuAD download required; trained demo works offline once corpus is prepared"
+}

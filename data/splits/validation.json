@@ -1,0 +1,978 @@
+[
+  {
+    "id": "56e17644e3433e1400422f40",
+    "question": "What two fields of theoretical computer science closely mirror computational complexity theory?",
+    "answers": [
+      "analysis of algorithms and computability theory"
+    ],
+    "doc_id": "squad2-a0001-p002",
+    "article_id": 1
+  },
+  {
+    "id": "56e17644e3433e1400422f41",
+    "question": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+    "answers": [
+      "analysis of algorithms"
+    ],
+    "doc_id": "squad2-a0001-p002",
+    "article_id": 1
+  },
+  {
+    "id": "56e17644e3433e1400422f42",
+    "question": "What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ",
+    "answers": [
+      "computational complexity theory"
+    ],
+    "doc_id": "squad2-a0001-p002",
+    "article_id": 1
+  },
+  {
+    "id": "56e17644e3433e1400422f43",
+    "question": "What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?",
+    "answers": [
+      "computability theory"
+    ],
+    "doc_id": "squad2-a0001-p002",
+    "article_id": 1
+  },
+  {
+    "id": "56e17a7ccd28a01900c679a1",
+    "question": "What is the name given to the input string of a computational problem?",
+    "answers": [
+      "a problem instance",
+      "problem instance"
+    ],
+    "doc_id": "squad2-a0001-p003",
+    "article_id": 1
+  },
+  {
+    "id": "56e17a7ccd28a01900c679a2",
+    "question": "In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",
+    "answers": [
+      "a problem",
+      "problem",
+      "the problem"
+    ],
+    "doc_id": "squad2-a0001-p003",
+    "article_id": 1
+  },
+  {
+    "id": "56e17a7ccd28a01900c679a3",
+    "question": "Is a problem instance typically characterized as abstract or concrete?",
+    "answers": [
+      "abstract",
+      "concrete"
+    ],
+    "doc_id": "squad2-a0001-p003",
+    "article_id": 1
+  },
+  {
+    "id": "56e17a7ccd28a01900c679a4",
+    "question": "What is another name for any given measure of input associated with a problem?",
+    "answers": [
+      "instance",
+      "instances",
+      "the instance"
+    ],
+    "doc_id": "squad2-a0001-p003",
+    "article_id": 1
+  },
+  {
+    "id": "56e17a7ccd28a01900c679a5",
+    "question": "What is the general term used to describe the output to any given input in a problem instance?",
+    "answers": [
+      "solution",
+      "the solution"
+    ],
+    "doc_id": "squad2-a0001-p003",
+    "article_id": 1
+  },
+  {
+    "id": "56e17e6ee3433e1400422f7f",
+    "question": "By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?",
+    "answers": [
+      "2000"
+    ],
+    "doc_id": "squad2-a0001-p004",
+    "article_id": 1
+  },
+  {
+    "id": "56e17e6ee3433e1400422f80",
+    "question": "What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?",
+    "answers": [
+      "a round trip through all sites in Milan whose total length is at most 10 km",
+      "asking for a round trip through all sites in Milan whose total length is at most 10 km",
+      "round trip through all sites in Milan"
+    ],
+    "doc_id": "squad2-a0001-p004",
+    "article_id": 1
+  },
+  {
+    "id": "56e17e6ee3433e1400422f81",
+    "question": "What does computational complexity theory most specifically seek to answer? ",
+    "answers": [
+      "computational problems"
+    ],
+    "doc_id": "squad2-a0001-p004",
+    "article_id": 1
+  },
+  {
+    "id": "56e181d9e3433e1400422fa1",
+    "question": "What is the name of the alphabet is most commonly used in a problem instance?",
+    "answers": [
+      "binary",
+      "binary alphabet"
+    ],
+    "doc_id": "squad2-a0001-p005",
+    "article_id": 1
+  },
+  {
+    "id": "56e181d9e3433e1400422fa2",
+    "question": "What is another term for the string of a problem instance?",
+    "answers": [
+      "bitstrings"
+    ],
+    "doc_id": "squad2-a0001-p005",
+    "article_id": 1
+  },
+  {
+    "id": "56e181d9e3433e1400422fa3",
+    "question": "In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",
+    "answers": [
+      "binary notation"
+    ],
+    "doc_id": "squad2-a0001-p005",
+    "article_id": 1
+  },
+  {
+    "id": "56e181d9e3433e1400422fa4",
+    "question": "What is one way in which graphs can be encoded? ",
+    "answers": [
+      "adjacency matrices",
+      "directly via their adjacency matrices"
+    ],
+    "doc_id": "squad2-a0001-p005",
+    "article_id": 1
+  },
+  {
+    "id": "56e190bce3433e1400422fc8",
+    "question": "What kind of problems are one of the main topics studied in computational complexity theory?",
+    "answers": [
+      "Decision",
+      "Decision problems"
+    ],
+    "doc_id": "squad2-a0001-p006",
+    "article_id": 1
+  },
+  {
+    "id": "56e190bce3433e1400422fca",
+    "question": "What are the two integer responses to a decision problem?",
+    "answers": [
+      "1 or 0"
+    ],
+    "doc_id": "squad2-a0001-p006",
+    "article_id": 1
+  },
+  {
+    "id": "56e190bce3433e1400422fcb",
+    "question": "What will the output be for a member of the language of a decision problem?",
+    "answers": [
+      "yes"
+    ],
+    "doc_id": "squad2-a0001-p006",
+    "article_id": 1
+  },
+  {
+    "id": "56e190bce3433e1400422fcc",
+    "question": "What answer denotes that an algorithm has accepted an input string?",
+    "answers": [
+      "yes"
+    ],
+    "doc_id": "squad2-a0001-p006",
+    "article_id": 1
+  },
+  {
+    "id": "56e19557e3433e1400422fee",
+    "question": "What kind of graph is an example of an input used in a decision problem?",
+    "answers": [
+      "arbitrary",
+      "arbitrary graph"
+    ],
+    "doc_id": "squad2-a0001-p007",
+    "article_id": 1
+  },
+  {
+    "id": "56e19557e3433e1400422ff0",
+    "question": "What is the term for the set of all connected graphs related to this decision problem?",
+    "answers": [
+      "The formal language",
+      "The formal language associated with this decision problem",
+      "formal language"
+    ],
+    "doc_id": "squad2-a0001-p007",
+    "article_id": 1
+  },
+  {
+    "id": "56e19557e3433e1400422ff1",
+    "question": "What encoding decision needs to be made in order to determine an exact definition of the formal language?",
+    "answers": [
+      "how graphs are encoded as binary strings"
+    ],
+    "doc_id": "squad2-a0001-p007",
+    "article_id": 1
+  },
+  {
+    "id": "56e19724cd28a01900c679f6",
+    "question": "A function problem is an example of what?",
+    "answers": [
+      "a computational problem"
+    ],
+    "doc_id": "squad2-a0001-p008",
+    "article_id": 1
+  },
+  {
+    "id": "56e19724cd28a01900c679f7",
+    "question": "How many outputs are expected for each input in a function problem?",
+    "answers": [
+      "a single output",
+      "single"
+    ],
+    "doc_id": "squad2-a0001-p008",
+    "article_id": 1
+  },
+  {
+    "id": "56e19724cd28a01900c679f8",
+    "question": "The traveling salesman problem is an example of what type of problem?",
+    "answers": [
+      "A function problem",
+      "function",
+      "function problem"
+    ],
+    "doc_id": "squad2-a0001-p008",
+    "article_id": 1
+  },
+  {
+    "id": "56e19724cd28a01900c679f9",
+    "question": "In addition to the traveling salesman problem, what is another example of a function problem?",
+    "answers": [
+      "integer factorization",
+      "integer factorization problem",
+      "the integer factorization problem"
+    ],
+    "doc_id": "squad2-a0001-p008",
+    "article_id": 1
+  },
+  {
+    "id": "56e19724cd28a01900c679fa",
+    "question": "Is the output of a functional problem typically characterized by a simple or complex answer?",
+    "answers": [
+      "complex"
+    ],
+    "doc_id": "squad2-a0001-p008",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a0dccd28a01900c67a2e",
+    "question": "How can function problems typically be restated?",
+    "answers": [
+      "as decision problems",
+      "decision problems"
+    ],
+    "doc_id": "squad2-a0001-p009",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a0dccd28a01900c67a2f",
+    "question": "If two integers are multiplied and output a value, what is this expression set called?",
+    "answers": [
+      "set of triples",
+      "the set of triples (a, b, c) such that the relation a \u00d7 b = c holds",
+      "triple"
+    ],
+    "doc_id": "squad2-a0001-p009",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a38de3433e140042305c",
+    "question": "What is a commonly used measurement used to determine the complexity of a computational problem?",
+    "answers": [
+      "how much time the best algorithm requires to solve the problem",
+      "time"
+    ],
+    "doc_id": "squad2-a0001-p010",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a38de3433e140042305d",
+    "question": "What is one variable on which the running time may be contingent?",
+    "answers": [
+      "the instance",
+      "the size of the instance"
+    ],
+    "doc_id": "squad2-a0001-p010",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a38de3433e140042305e",
+    "question": "How is the time needed to obtain the solution to a problem calculated?",
+    "answers": [
+      "a function of the size of the instance",
+      "as a function of the size of the instance"
+    ],
+    "doc_id": "squad2-a0001-p010",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a38de3433e140042305f",
+    "question": "In what unit is the size of the input measured?",
+    "answers": [
+      "bits"
+    ],
+    "doc_id": "squad2-a0001-p010",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a38de3433e1400423060",
+    "question": "Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable?",
+    "answers": [
+      "an increase in the input size",
+      "input size"
+    ],
+    "doc_id": "squad2-a0001-p010",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a564cd28a01900c67a48",
+    "question": "Whose thesis states that the solution to a problem is solvable with reasonable resources assuming it allows for a polynomial time algorithm?",
+    "answers": [
+      "Cobham",
+      "Cobham's",
+      "Cobham's thesis"
+    ],
+    "doc_id": "squad2-a0001-p011",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a564cd28a01900c67a49",
+    "question": "If input size is is equal to n, what can respectively be assumed is the function of n?",
+    "answers": [
+      "the time taken"
+    ],
+    "doc_id": "squad2-a0001-p011",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a564cd28a01900c67a4a",
+    "question": "What term corresponds to the maximum measurement of time across all functions of n? ",
+    "answers": [
+      "the worst-case time complexity",
+      "worst-case time complexity"
+    ],
+    "doc_id": "squad2-a0001-p011",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a564cd28a01900c67a4b",
+    "question": "How is worst-case time complexity written as an expression?",
+    "answers": [
+      "T(n)"
+    ],
+    "doc_id": "squad2-a0001-p011",
+    "article_id": 1
+  },
+  {
+    "id": "56e1a564cd28a01900c67a4c",
+    "question": "Assuming that T represents a polynomial in T(n), what is the term given to the corresponding algorithm?",
+    "answers": [
+      "polynomial time",
+      "polynomial time algorithm"
+    ],
+    "doc_id": "squad2-a0001-p011",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aba0e3433e1400423094",
+    "question": "What is the term for a mathematical model that theoretically represents a general computing machine?",
+    "answers": [
+      "A Turing machine",
+      "Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p012",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aba0e3433e1400423097",
+    "question": "What is the most commonplace model utilized in complexity theory?",
+    "answers": [
+      "Turing machine",
+      "the Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p012",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aba0e3433e1400423098",
+    "question": "What does a Turing machine handle on a strip of tape?",
+    "answers": [
+      "symbols"
+    ],
+    "doc_id": "squad2-a0001-p012",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aff7cd28a01900c67a68",
+    "question": "What is generally considered to be the most basic iteration of a Turing machine?",
+    "answers": [
+      "A deterministic Turing machine",
+      "deterministic",
+      "deterministic Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p013",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aff7cd28a01900c67a69",
+    "question": "What fixed set of factors determine the actions of a deterministic Turing machine",
+    "answers": [
+      "a fixed set of rules to determine its future actions",
+      "rules"
+    ],
+    "doc_id": "squad2-a0001-p013",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aff7cd28a01900c67a6a",
+    "question": "What is the term used to identify a deterministic Turing machine that has additional random bits?",
+    "answers": [
+      "A probabilistic Turing machine",
+      "probabilistic",
+      "probabilistic Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p013",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aff7cd28a01900c67a6b",
+    "question": "What type of Turing machine is capable of multiple actions and extends into a variety of computational paths?",
+    "answers": [
+      "A non-deterministic Turing machine",
+      "non-deterministic",
+      "non-deterministic Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p013",
+    "article_id": 1
+  },
+  {
+    "id": "56e1aff7cd28a01900c67a6c",
+    "question": "What is the term given to algorithms that utilize random bits?",
+    "answers": [
+      "randomized algorithms"
+    ],
+    "doc_id": "squad2-a0001-p013",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b00ce3433e140042309e",
+    "question": "Turing machines are commonly employed to define what? ",
+    "answers": [
+      "complexity classes"
+    ],
+    "doc_id": "squad2-a0001-p014",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b00ce3433e140042309f",
+    "question": "What are two factors that directly effect how powerful a Turing machine may or may not be?",
+    "answers": [
+      "time or space"
+    ],
+    "doc_id": "squad2-a0001-p014",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b00ce3433e14004230a1",
+    "question": "In the determination of complexity classes, what are two examples of types of Turing machines?",
+    "answers": [
+      "probabilistic Turing machines, non-deterministic Turing machines"
+    ],
+    "doc_id": "squad2-a0001-p014",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b169cd28a01900c67a72",
+    "question": "What is an example of a machine model that deviates from a generally accepted multi-tape Turing machine?",
+    "answers": [
+      "random access machines"
+    ],
+    "doc_id": "squad2-a0001-p015",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b169cd28a01900c67a73",
+    "question": "In considering Turing machines and alternate variables, what measurement left unaffected by conversion between machine models? ",
+    "answers": [
+      "computational power"
+    ],
+    "doc_id": "squad2-a0001-p015",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b169cd28a01900c67a74",
+    "question": "What two resources commonly consumed by alternate models are typically known to vary?",
+    "answers": [
+      "time and memory",
+      "time and memory consumption"
+    ],
+    "doc_id": "squad2-a0001-p015",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b169cd28a01900c67a75",
+    "question": "What commonality do alternate machine models, such as random access machines, share with Turing machines?",
+    "answers": [
+      "deterministically",
+      "the machines operate deterministically"
+    ],
+    "doc_id": "squad2-a0001-p015",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b355e3433e14004230b0",
+    "question": "What type of Turing machine can be characterized by checking multiple possibilities at the same time?",
+    "answers": [
+      "non-deterministic",
+      "non-deterministic Turing machine"
+    ],
+    "doc_id": "squad2-a0001-p016",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b355e3433e14004230b1",
+    "question": "What often affects or facilitates ease of analysis in computational problems?",
+    "answers": [
+      "more unusual resources",
+      "unusual resources"
+    ],
+    "doc_id": "squad2-a0001-p016",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b355e3433e14004230b2",
+    "question": "A non-deterministic Turing machine has the ability to capture what facet of useful analysis?",
+    "answers": [
+      "branching",
+      "mathematical models"
+    ],
+    "doc_id": "squad2-a0001-p016",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b355e3433e14004230b3",
+    "question": "What is the most critical resource in the analysis of computational problems associated with non-deterministic Turing machines?",
+    "answers": [
+      "non-deterministic time",
+      "time"
+    ],
+    "doc_id": "squad2-a0001-p016",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b62ecd28a01900c67aa3",
+    "question": "The time required to output an answer on a deterministic Turing machine is expressed as what?",
+    "answers": [
+      "state transitions",
+      "the total number of state transitions, or steps",
+      "total number of state transitions, or steps, the machine makes before it halts and outputs the answer"
+    ],
+    "doc_id": "squad2-a0001-p017",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b62ecd28a01900c67aa4",
+    "question": "Complexity theory classifies problems based on what primary attribute?",
+    "answers": [
+      "difficulty"
+    ],
+    "doc_id": "squad2-a0001-p017",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b62ecd28a01900c67aa5",
+    "question": "What is the expression used to identify any given series of problems capable of being solved within time on a deterministic Turing machine?",
+    "answers": [
+      "DTIME(f(n))",
+      "DTIME(f(n))."
+    ],
+    "doc_id": "squad2-a0001-p017",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b754cd28a01900c67abc",
+    "question": "Time and space are both examples of what type of resource?",
+    "answers": [
+      "complexity",
+      "complexity resources"
+    ],
+    "doc_id": "squad2-a0001-p018",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b754cd28a01900c67abd",
+    "question": "A complexity resource can also be described as what other type of resource?",
+    "answers": [
+      "computational",
+      "computational resource"
+    ],
+    "doc_id": "squad2-a0001-p018",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b754cd28a01900c67abe",
+    "question": "What is typically used to broadly define complexity measures?",
+    "answers": [
+      "Blum complexity axioms",
+      "the Blum complexity axioms"
+    ],
+    "doc_id": "squad2-a0001-p018",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b754cd28a01900c67abf",
+    "question": "Communication complexity is an example of what type of measure?",
+    "answers": [
+      "Complexity measures",
+      "complexity",
+      "complexity measures"
+    ],
+    "doc_id": "squad2-a0001-p018",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b754cd28a01900c67ac0",
+    "question": "Decision tree is an example of what type of measure?",
+    "answers": [
+      "Complexity measures",
+      "complexity",
+      "complexity measures"
+    ],
+    "doc_id": "squad2-a0001-p018",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b8f3e3433e14004230e6",
+    "question": "What are the three primary expressions used to represent case complexity?",
+    "answers": [
+      "best, worst and average",
+      "best, worst and average case",
+      "best, worst and average case complexity"
+    ],
+    "doc_id": "squad2-a0001-p019",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b8f3e3433e14004230e7",
+    "question": "Case complexity likelihoods provide variable probabilities of what general measure? ",
+    "answers": [
+      "complexity",
+      "complexity measure"
+    ],
+    "doc_id": "squad2-a0001-p019",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b8f3e3433e14004230e8",
+    "question": "What is one common example of a critical complexity measure?",
+    "answers": [
+      "time",
+      "time complexity"
+    ],
+    "doc_id": "squad2-a0001-p019",
+    "article_id": 1
+  },
+  {
+    "id": "56e1b8f3e3433e14004230e9",
+    "question": "Case complexities provide three likelihoods of what differing variable that remains the same size? ",
+    "answers": [
+      "inputs"
+    ],
+    "doc_id": "squad2-a0001-p019",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ba41cd28a01900c67ae0",
+    "question": "What provides a solution to a list of integers provided as input that ned to be sorted?",
+    "answers": [
+      "deterministic sorting algorithm quicksort",
+      "quicksort",
+      "the deterministic sorting algorithm quicksort"
+    ],
+    "doc_id": "squad2-a0001-p020",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ba41cd28a01900c67ae1",
+    "question": "When extensive time is required to sort integers, this represents what case complexity?",
+    "answers": [
+      "worst",
+      "worst-case"
+    ],
+    "doc_id": "squad2-a0001-p020",
+    "article_id": 1
+  },
+  {
+    "id": "56e1ba41cd28a01900c67ae2",
+    "question": "What is the expression used to denote a worst case complexity as expressed by time taken?",
+    "answers": [
+      "O(n2)"
+    ],
+    "doc_id": "squad2-a0001-p020",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bc3ae3433e1400423104",
+    "question": "Classification of resources is contingent on determining the upper and lower bounds of minimum time required by what?  ",
+    "answers": [
+      "the most efficient algorithm",
+      "the most efficient algorithm solving a given problem"
+    ],
+    "doc_id": "squad2-a0001-p021",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bc3ae3433e1400423105",
+    "question": "The analysis of a specific algorithm is typically assigned to what field of computational science?",
+    "answers": [
+      "analysis of algorithms"
+    ],
+    "doc_id": "squad2-a0001-p021",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bc3ae3433e1400423106",
+    "question": "Which bound of time is more difficult to establish?",
+    "answers": [
+      "lower",
+      "lower bounds"
+    ],
+    "doc_id": "squad2-a0001-p021",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bc3ae3433e1400423107",
+    "question": "A specific algorithm demonstrating T(n) represents what measure of time complexity?",
+    "answers": [
+      "upper and lower bounds",
+      "upper bound"
+    ],
+    "doc_id": "squad2-a0001-p021",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bc3ae3433e1400423108",
+    "question": "What is the colloquial phrase used to convey the continuum of algorithms with unlimited availability irrespective of time? ",
+    "answers": [
+      "all possible algorithms"
+    ],
+    "doc_id": "squad2-a0001-p021",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bd4acd28a01900c67afc",
+    "question": "What expression is generally used to convey upper or lower bounds?",
+    "answers": [
+      "big O notation"
+    ],
+    "doc_id": "squad2-a0001-p022",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bd4acd28a01900c67afd",
+    "question": "What does a big O notation hide?",
+    "answers": [
+      "constant factors and smaller terms"
+    ],
+    "doc_id": "squad2-a0001-p022",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bd4acd28a01900c67afe",
+    "question": "How would one write T(n) = 7n2 + 15n + 40 in big O notation? ",
+    "answers": [
+      "T(n) = O(n2)"
+    ],
+    "doc_id": "squad2-a0001-p022",
+    "article_id": 1
+  },
+  {
+    "id": "56e1bd4acd28a01900c67aff",
+    "question": "Big O notation provides autonomy to upper and lower bounds with relationship to what? ",
+    "answers": [
+      "specific details of the computational model used",
+      "the computational model",
+      "the specific details of the computational model used"
+    ],
+    "doc_id": "squad2-a0001-p022",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c0f6cd28a01900c67b2c",
+    "question": "What has complicated definitions that prevent classification into a framework?",
+    "answers": [
+      "complexity classes",
+      "some complexity classes"
+    ],
+    "doc_id": "squad2-a0001-p023",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c0f6cd28a01900c67b2d",
+    "question": "Complexity classes are generally classified into what?",
+    "answers": [
+      "framework"
+    ],
+    "doc_id": "squad2-a0001-p023",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c0f6cd28a01900c67b2e",
+    "question": "Difficulty in establishing a framework for complexity classes can be caused by what variable?",
+    "answers": [
+      "complicated definitions",
+      "definitions"
+    ],
+    "doc_id": "squad2-a0001-p023",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c2eee3433e1400423134",
+    "question": "Concrete bounding of computation time frequently produces complexity classes contingent upon what?",
+    "answers": [
+      "chosen machine model",
+      "the chosen machine model"
+    ],
+    "doc_id": "squad2-a0001-p024",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c2eee3433e1400423135",
+    "question": "A multi-tape Turing machine requires what type of time for a solution?",
+    "answers": [
+      "linear",
+      "linear time"
+    ],
+    "doc_id": "squad2-a0001-p024",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c2eee3433e1400423136",
+    "question": "A language solved in quadratic time implies the use of what type of Turing machine?",
+    "answers": [
+      "single-tape",
+      "single-tape Turing machines"
+    ],
+    "doc_id": "squad2-a0001-p024",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c2eee3433e1400423137",
+    "question": "What thesis specifies that a polynomial relationship exists within time complexities in a computational model? ",
+    "answers": [
+      "Cobham-Edmonds",
+      "Cobham-Edmonds thesis"
+    ],
+    "doc_id": "squad2-a0001-p024",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c2eee3433e1400423138",
+    "question": "Decision problems capable of being solved by a deterministic Turing machine while maintaining adherence to polynomial time belong to what class?",
+    "answers": [
+      "P",
+      "complexity class P"
+    ],
+    "doc_id": "squad2-a0001-p024",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c3e1e3433e1400423148",
+    "question": "What are two examples of measurements are bound within algorithms to establish complexity classes?",
+    "answers": [
+      "time or space"
+    ],
+    "doc_id": "squad2-a0001-p025",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c3e1e3433e1400423149",
+    "question": "What function is used by algorithms to define measurements like time or space?",
+    "answers": [
+      "bounding"
+    ],
+    "doc_id": "squad2-a0001-p025",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c3e1e3433e140042314a",
+    "question": "Bounding of time and space or similar measurements is often used by algorithms to define what?",
+    "answers": [
+      "complexity classes"
+    ],
+    "doc_id": "squad2-a0001-p025",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c4fce3433e140042314e",
+    "question": "What are three examples of complexity classes associated with definitions established by probabilistic Turing machines?",
+    "answers": [
+      "BPP, ZPP and RP"
+    ],
+    "doc_id": "squad2-a0001-p026",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c4fce3433e140042314f",
+    "question": "AC and NC are complexity classes typically associated with what type of circuit?",
+    "answers": [
+      "Boolean",
+      "Boolean circuits;"
+    ],
+    "doc_id": "squad2-a0001-p026",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c4fce3433e1400423150",
+    "question": "BQP and QMA are examples of complexity classes most commonly associated with what type of Turing machine?",
+    "answers": [
+      "quantum"
+    ],
+    "doc_id": "squad2-a0001-p026",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c4fce3433e1400423151",
+    "question": "What is the expression used to represent a complexity class of counting problems?",
+    "answers": [
+      "#P"
+    ],
+    "doc_id": "squad2-a0001-p026",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c4fce3433e1400423152",
+    "question": "IP and AM are most commonly defined by what type of proof system?",
+    "answers": [
+      "Interactive"
+    ],
+    "doc_id": "squad2-a0001-p026",
+    "article_id": 1
+  },
+  {
+    "id": "56e1c720e3433e140042316a",
+    "question": "What is an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?",
+    "answers": [
+      "computation time"
+    ],
+    "doc_id": "squad2-a0001-p027",
+    "article_id": 1
+  }
+]

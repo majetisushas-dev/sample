@@ -1,0 +1,9 @@
+experiment,status,n,notes
+B0_closed_book,completed,150.0,single CPU pilot
+B1_bm25,completed,150.0,single CPU pilot
+B2_hybrid,completed,150.0,single CPU pilot
+B3_corrected,completed,150.0,single CPU pilot
+B4_full,completed,150.0,single CPU pilot
+controlled source withholding,completed,50.0,not global unanswerability
+human evaluation,pending,,template only
+neural INT8 comparison,pending,,not applicable to extractive generator

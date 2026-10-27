@@ -1,0 +1,9 @@
+key,status,verification_source,identifier,note
+lewis2020rag,verified,NeurIPS proceedings,https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html,no DOI claimed
+karpukhin2020dpr,verified,ACL Anthology,10.18653/v1/2020.emnlp-main.550,DOI and metadata
+asai2024selfrag,verified,OpenReview,https://openreview.net/forum?id=hSyW5go0v8,no DOI claimed
+yan2024crag,verified,arXiv,arXiv:2401.15884,no DOI claimed
+guo2017calibration,verified,PMLR,https://proceedings.mlr.press/v70/guo17a.html,no DOI claimed
+geifman2017selective,verified,NeurIPS proceedings,https://proceedings.neurips.cc/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html,no DOI claimed
+rajpurkar2018know,verified,ACL Anthology,10.18653/v1/P18-2124,DOI and metadata
+

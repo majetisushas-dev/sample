@@ -1,0 +1,10 @@
+{
+  "target": "exact-match correctness",
+  "fit_split": "calibration",
+  "threshold_split": "validation",
+  "threshold": 0.7644148160266916,
+  "target_risk": 0.2,
+  "validation_risk": 0.0,
+  "validation_coverage": 0.01,
+  "note": "empirical objective, not guarantee"
+}

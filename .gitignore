@@ -1,0 +1,33 @@
+# Workspace and assistant metadata
+.agents/
+.aws/
+.codex/
+attachments/
+library-files/
+sample/
+scratch/
+shared/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Generated duplicate packages
+deliverables/*.zip
+
+# LaTeX intermediate files (retain PDF, source, bibliography, and compilation log)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.lof
+paper/*.lot
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,34 @@
+{
+  "title": "Evidence-Calibrated Self-Correcting RAG for Hallucination-Resistant Question Answering",
+  "run_timestamp_utc": "2026-10-27T12:09:46Z",
+  "status": "completed CPU pilot",
+  "os": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "cpu_count": 3,
+  "ram_gib_observed": 9.7,
+  "dataset_manifest": {
+    "dataset": "SQuAD 2.0 dev-v2.0",
+    "source": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/dataset/dev-v2.0.json",
+    "sha256": "80a5225e94905956a6446d296ca1093975c4d3b3260f1d6c8f68bc2ab77182d8",
+    "license": "CC BY-SA 4.0 per official repository",
+    "corpus_documents": 1204,
+    "answerable_questions": 5928,
+    "split_counts": {
+      "train": 360,
+      "calibration": 100,
+      "validation": 100,
+      "test": 150
+    },
+    "seed": 2026
+  },
+  "test_questions": 150,
+  "controlled_withheld_questions": 50,
+  "seed": 2026,
+  "limitations": [
+    "Linux only",
+    "extractive heuristic generator",
+    "bounded corpus",
+    "answer-bearing support proxy",
+    "single pipeline run"
+  ]
+}

@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+method & em & f1 & coverage & selective\_risk & recall\_at\_5 & median\_latency\_ms & p95\_latency\_ms & mean\_retrieval\_calls & mean\_generation\_calls \\
+\midrule
+B0\_closed\_book & 0.000 & 0.020 & 0.000 & nan & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+B1\_bm25 & 0.020 & 0.148 & 1.000 & 0.980 & 0.587 & 1.471 & 1.802 & 1.000 & 1.000 \\
+B2\_hybrid & 0.013 & 0.126 & 1.000 & 0.987 & 0.500 & 1.589 & 2.165 & 1.000 & 1.000 \\
+B3\_corrected & 0.013 & 0.130 & 1.000 & 0.987 & 0.513 & 3.471 & 4.224 & 1.800 & 1.800 \\
+B4\_full & 0.000 & 0.020 & 0.000 & nan & 0.513 & 3.548 & 4.408 & 1.800 & 1.800 \\
+\bottomrule
+\end{tabular}
